@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    font-family: monospace;
+    background-color: black;
+}
+
+.card {
+    background-color: blanchedalmond;
+    color: black;
+    margin: 5%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px blanchedalmond, -2px -2px 5px blanchedalmond;
+    padding: 10px 15px 10px 15px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.stat-item p {
+    font-weight: bold;
+}
+
+.stat-item i {
+    color: blanchedalmond;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.stats-container {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.grey-card {
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding: 1em;
+
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.button {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: transparent;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.left i {
+    color: blanchedalmond;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.page-header {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    padding: 1em;
+    box-shadow: 2px 2px 5px blanchedalmond, -2px -2px 5px blanchedalmond;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10em;
+    padding: 1em;
+}
+
+.page-header i {
+    padding-right: 1em;
+}
+
+li:hover {
+    color: rgb(165, 151, 130);
+}
+
